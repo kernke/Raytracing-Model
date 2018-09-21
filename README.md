@@ -1,3 +1,2 @@
-#Raytracing Model
+# Raytracing Model
 
-t
