@@ -22,7 +22,7 @@ Ray tracing is an algorithm for the generation of photo-realistic computer
 	camera to the light source 
 	via reflections and refractions on the object would be needed.
 
-	But often there is an interest only in the aesthetics of the picture and 
+But often there is an interest only in the aesthetics of the picture and 
 	the tracing can be stopped after 2 or 3 reflections and some heuristic 
 	surface 
 	brightness value can be used from there on. 
@@ -34,9 +34,18 @@ Ray tracing is an algorithm for the generation of photo-realistic computer
 The method of raytracing can also be used in a scientific way to analyze 
 	images. The algorithm generates a picture, given the object and lighting. 
 	If the image already exists from an experimental setup, one can use 
-	ray tracing to inversely reconstruct either: \begin{enumerate}
-		\item the lighting, given the structure of the object or
-		\item the structure of the object, given the setup of the lighting.
-	\end{enumerate}
+	ray tracing to inversely reconstruct either: 
+		
+		the lighting, given the structure of the object or
+		
+		the structure of the object, given the setup of the lighting.
+
+Now one can try different hypotheses about the unknown part, and compare 
+	the computed image with the experimental result.
+	Even if the reproduction of an image by ray tracing is successful, the 
+	hypothesis needs additional reasoning, because the solution does not have 
+	to be unique.  
+
+	
 
 	
